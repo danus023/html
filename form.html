@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title style="color:blue">FORM</title>
+  <style>
+    .form{
+    background-color: lightblue;
+    text-align: center;
+    }
+    .left{
+    text-align: left;
+    }
+    fieldset{
+      width: 20%;
+      margin-left: 40%;
+      margin-right: 40%;
+      background-color: green;
+    }
+
+    td{
+      text-align: left;
+    }
+    table{
+      margin-left: 10%;
+      margin-right: 10%;
+      width: 100%;
+    }
+  </style>
+  </head>
+  <body>
+    <h2 style="text-align:center; font-weight:underline;">Uki-Student</h2>
+    <form border=2px >
+      <fieldset class="form">
+      <legend align="center">Uki.life:</legend>
+      <table>
+      <tr> <td>First name: </td> <td> <input type="text"name="f.name" placeholder="Type here"> </td> </tr>
+      <tr> <td>Last name: </td> <td> <input type="text"name="l.name"placeholder="Type here"> </td> </tr>
+      <tr> <td>Reg No: </td> <td> <input type="text"name="reg no"placeholder="Type here"> </td> </tr>
+      <tr> <td>Date of birth: </td> <td> <input type="text"name="dob"placeholder="Type here"> </td> </tr>
+  </table>
+  <br>
+      Gender: <input type="radio" value="male name="male">Male <input type="radio" value="female"name="female"> Famale
+      <p class="left">Fav.subject :</p>
+      <input type="checkbox" name="Programming" value="programming"> Programming
+      <input type="checkbox" name="Business" value="business"> Business
+      <input type="checkbox" name="Persanal coaching" value="persanal coaching"> Persanal coaching
+      <input type="checkbox" name="Englsh" value="English"> English</br>
+      <h3 style="text-align:center;"> Feedback </h3>
+      <textarea name="message" rows="10" cols="30"></textarea> <br>
+       <input type="submit" value="Submit">
+      <input type="reset">
+    </fieldset>
+    </form>
+  </body>
+</html>
