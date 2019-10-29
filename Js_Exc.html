@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    //Qs - 1
+      var y = 16;
+      var x = Math.sqrt(y);
+      document.write(x+"<br>");
+
+    //Qs - 2
+      var num1 = 2;
+      var num2 = 5;
+
+      function addNum(){
+        var answer = num1 + num2;
+        return answer;
+      }
+
+      function multiNum(){
+        var manswer = num1 * num2;
+        return manswer;
+
+      }
+
+      function subtractNum(){
+        var sanswer = num1 - num2;
+        return sanswer;
+      }
+
+      function divideNum(){
+        var danswer = num1 / num2;
+        return danswer;
+      }
+
+      var s = addNum();
+      var s1 = multiNum();
+      var s2 = subtractNum();
+      var s3 = divideNum();
+      document.write(s+"<br>"+s1+"<br>"+s2+"<br>"+s3+"<br>");
+
+      //Qs 3
+      function helloWord(){
+        alert("Hello World");
+      }
+
+      helloWord();
+
+      //Qs 4
+      var length, width, height, ans;
+      function cuboid(length,width,height){
+        var ld = length*width;
+        ans = ld*height;
+        return ans;
+      }
+
+      var t = cuboid(10,5,6);
+      document.write(t+"<br>");
+
+      //Qs 5
+      var person = {firstName:"Nimal", lastName:"Raj", age:15, city:"Kandy"};
+      document.write(`My name is ${person.firstName}. I’m ${person.age} years old.I live in ${person.city}.`+"<br>");
+
+      //Qs 6
+      var course = {courseName:"BIT", courseFee:150000, startDate:"12.06.2018", center:"Our office"};
+      document.write("Course Name: "+course.courseName+"<br>"+"Course Fee: RS "+course.courseFee+"<br>"+"Start Date: "+course.startDate+"<br>"+"Center: "+course.center);
+    </script>
+  </body>
+</html>
